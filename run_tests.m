@@ -10,5 +10,5 @@ runner.addPlugin(XMLPlugin.producingJUnitFormat("test-results.xml"));
 results = runner.run(suite);
 
 assertSuccess(results)
-This generates:
-test-results.xml
+% This generates:
+% test-results.xml
